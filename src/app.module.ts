@@ -7,7 +7,7 @@ import { MongooseModule } from '@nestjs/mongoose';
   providers: [],
   imports: [
     MongooseModule.forRoot(
-      'mongodb+srv://CaioManduca:Manducaomatadordorei07@agenda-academica.sr4mcvp.mongodb.net/test',
+      'mongodb+srv://CaioManduca:Manducaomatadordorei07@agenda-academica.sr4mcvp.mongodb.net/main',
     ),
     SubjectsModule,
   ],
